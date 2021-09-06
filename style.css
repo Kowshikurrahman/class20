@@ -1,0 +1,64 @@
+/* default Code */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li{
+  margin-left: -4px;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/* Web Start */
+.navbar{
+  background-color: #e3f2fd !important;
+}
+.logo{
+  width: 50px;
+  margin-right: 20px;
+}
+.accordion-button::after{
+  display: none;
+}
+.accordion-button:focus{
+  box-shadow: none;
+}
+.accordion-button{
+  background-color: #e9ecef;
+}
+.accordion-button:active{
+  background-color: #e9ecef !important;
+}
+.accordion-button.collapsed{
+  color:#007bff ;
+  font-weight: 700;
+}
+.accordion-button.collapsed:hover{
+  text-decoration: underline !important;
+}
+.accordion-button.collapsed:active{
+  text-decoration: underline;
+}
+.foor{
+  background-color: #e9ecef ;
+}
+
+.scrollspy-example {
+    position: relative;
+    height: 200px;
+    margin-top: .5rem;
+    overflow: auto;
+}
